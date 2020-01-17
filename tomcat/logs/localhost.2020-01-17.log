@@ -1,0 +1,14 @@
+Jan 17, 2020 11:38:42 AM org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring root WebApplicationContext
+Jan 17, 2020 11:39:32 AM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextInitialized()
+Jan 17, 2020 11:39:32 AM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextInitialized()
+Jan 17, 2020 11:39:32 AM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@1f41c760')
+Jan 17, 2020 11:39:58 AM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextDestroyed()
+Jan 17, 2020 11:39:58 AM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextDestroyed()
+Jan 17, 2020 11:39:59 AM org.apache.catalina.core.ApplicationContext log
+INFO: Closing Spring root WebApplicationContext

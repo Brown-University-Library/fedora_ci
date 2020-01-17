@@ -1,0 +1,189 @@
+INFO 2020-01-17 11:38:42.135 [localhost-startStop-1] (LogSetupContextListener) Configured Fedora Logback system with config file from: /opt/eulfedora_ci/fedora_ci/server/config/logback.xml
+INFO 2020-01-17 11:38:43.519 [localhost-startStop-1] (Server) Registered server at /opt/eulfedora_ci/fedora_ci/server
+INFO 2020-01-17 11:38:43.526 [localhost-startStop-1] (Server) loading spring beans from /opt/eulfedora_ci/fedora_ci/server/config/spring/doobjectvalidator.xml
+INFO 2020-01-17 11:38:43.548 [localhost-startStop-1] (Server) loading spring beans from /opt/eulfedora_ci/fedora_ci/server/config/spring/doreader-cache.xml
+INFO 2020-01-17 11:38:43.567 [localhost-startStop-1] (Server) loading spring beans from /opt/eulfedora_ci/fedora_ci/server/config/spring/policy-enforcement.xml
+INFO 2020-01-17 11:38:43.622 [localhost-startStop-1] (Server) loading spring beans from /opt/eulfedora_ci/fedora_ci/server/config/spring/triple-generator.xml
+INFO 2020-01-17 11:38:43.647 [localhost-startStop-1] (Server) Server home is /opt/eulfedora_ci/fedora_ci/server
+INFO 2020-01-17 11:38:43.687 [localhost-startStop-1] (BasicServer) Fedora Version: 3.8.2-SNAPSHOT
+INFO 2020-01-17 11:38:43.687 [localhost-startStop-1] (BasicServer) Fedora Build Date: 2020-01-17 15:59:45 UTC+0000
+INFO 2020-01-17 11:38:43.688 [localhost-startStop-1] (Server) Loading fcfg datastore definitions for localMySQLPool
+INFO 2020-01-17 11:38:43.689 [localhost-startStop-1] (Server) Loading fcfg datastore definitions for localDerbyPool
+INFO 2020-01-17 11:38:43.689 [localhost-startStop-1] (Server) Loading fcfg datastore definitions for localOraclePool
+INFO 2020-01-17 11:38:43.689 [localhost-startStop-1] (Server) Loading fcfg datastore definitions for localPostgreSQLPool
+INFO 2020-01-17 11:38:43.689 [localhost-startStop-1] (Server) Loading fcfg datastore definitions for localMulgaraTriplestore
+INFO 2020-01-17 11:38:43.689 [localhost-startStop-1] (Server) Loading fcfg datastore definitions for localPostgresMPTTriplestore
+INFO 2020-01-17 11:38:43.689 [localhost-startStop-1] (Server) Loading fcfg datastore definitions for apimUpdateMessages
+INFO 2020-01-17 11:38:43.689 [localhost-startStop-1] (Server) Loading fcfg datastore definitions for apimAccessMessages
+INFO 2020-01-17 11:38:43.689 [localhost-startStop-1] (Server) Loading bean definitions for org.fcrepo.server.storage.lowlevel.DefaultLowlevelStorageModule impl class=org.fcrepo.server.storage.lowlevel.ILowlevelStorage
+INFO 2020-01-17 11:38:43.690 [localhost-startStop-1] (Server) Loading bean definitions for org.fcrepo.server.security.DefaultAuthorization impl class=org.fcrepo.server.security.Authorization
+INFO 2020-01-17 11:38:43.701 [localhost-startStop-1] (Server) Loading bean definitions for org.fcrepo.server.security.DefaultBackendSecurity impl class=org.fcrepo.server.security.BackendSecurity
+INFO 2020-01-17 11:38:43.707 [localhost-startStop-1] (Server) Loading bean definitions for org.fcrepo.server.storage.DefaultDOManager impl class=org.fcrepo.server.storage.DOManager
+INFO 2020-01-17 11:38:43.708 [localhost-startStop-1] (Server) Loading bean definitions for org.fcrepo.server.access.DefaultAccess impl class=org.fcrepo.server.access.Access
+INFO 2020-01-17 11:38:43.709 [localhost-startStop-1] (Server) Loading bean definitions for org.fcrepo.server.access.DynamicAccessModule impl class=org.fcrepo.server.access.DynamicAccess
+INFO 2020-01-17 11:38:43.710 [localhost-startStop-1] (Server) Loading bean definitions for org.fcrepo.server.search.FieldSearchSQLModule impl class=org.fcrepo.server.search.FieldSearch
+INFO 2020-01-17 11:38:43.710 [localhost-startStop-1] (Server) Loading bean definitions for org.fcrepo.server.resourceIndex.ResourceIndexModule impl class=org.fcrepo.server.resourceIndex.ResourceIndex
+INFO 2020-01-17 11:38:43.711 [localhost-startStop-1] (Server) Loading bean definitions for org.fcrepo.server.oai.FedoraOAIProviderModule impl class=org.fcrepo.oai.OAIProvider
+INFO 2020-01-17 11:38:43.711 [localhost-startStop-1] (Server) Loading bean definitions for org.fcrepo.server.storage.translation.DOTranslatorModule impl class=org.fcrepo.server.storage.translation.DOTranslator
+INFO 2020-01-17 11:38:43.711 [localhost-startStop-1] (Server) Loading bean definitions for org.fcrepo.server.management.BasicPIDGenerator impl class=org.fcrepo.server.management.PIDGenerator
+INFO 2020-01-17 11:38:43.719 [localhost-startStop-1] (Server) Loading bean definitions for org.fcrepo.server.messaging.MessagingModule impl class=org.fcrepo.server.messaging.Messaging
+INFO 2020-01-17 11:38:43.720 [localhost-startStop-1] (Server) Loading bean definitions for org.fcrepo.server.storage.ConnectionPoolManagerImpl impl class=org.fcrepo.server.storage.ConnectionPoolManager
+INFO 2020-01-17 11:38:43.721 [localhost-startStop-1] (Server) Loading bean definitions for org.fcrepo.server.validation.DOValidatorModule impl class=org.fcrepo.server.validation.DOValidator
+INFO 2020-01-17 11:38:43.726 [localhost-startStop-1] (Server) Loading bean definitions for org.fcrepo.server.storage.DefaultExternalContentManager impl class=org.fcrepo.server.storage.ExternalContentManager
+INFO 2020-01-17 11:38:43.727 [localhost-startStop-1] (Server) Loading bean definitions for org.fcrepo.server.management.ManagementModule impl class=org.fcrepo.server.management.Management
+INFO 2020-01-17 11:38:43.928 [localhost-startStop-1] (DOValidatorModule) Adding 0 object validators
+INFO 2020-01-17 11:38:44.158 [localhost-startStop-1] (PolicyFinderModule) Loading repository policies...
+INFO 2020-01-17 11:38:44.163 [localhost-startStop-1] (PolicyFinderModule) Generating backend policies...
+INFO 2020-01-17 11:38:44.805 [localhost-startStop-1] (SimplePolicyLoader) Loading policy: /opt/eulfedora_ci/fedora_ci/server/fedora-internal-use/fedora-internal-use-backend-service-policies/callback-by_fedoraInternalCall-1-other-methods.xml
+INFO 2020-01-17 11:38:44.936 [localhost-startStop-1] (SimplePolicyLoader) Loading policy: /opt/eulfedora_ci/fedora_ci/server/fedora-internal-use/fedora-internal-use-backend-service-policies/callback-by_fedoraInternalCall-2-other-methods.xml
+INFO 2020-01-17 11:38:44.940 [localhost-startStop-1] (SimplePolicyLoader) Loading policy: /opt/eulfedora_ci/fedora_ci/server/fedora-internal-use/fedora-internal-use-backend-service-policies/callback-by_default.xml
+INFO 2020-01-17 11:38:44.942 [localhost-startStop-1] (SimplePolicyLoader) Loading policy: /opt/eulfedora_ci/fedora_ci/data/fedora-xacml-policies/repository-policies/default/deny-apim-if-not-localhost.xml
+INFO 2020-01-17 11:38:44.951 [localhost-startStop-1] (SimplePolicyLoader) Loading policy: /opt/eulfedora_ci/fedora_ci/data/fedora-xacml-policies/repository-policies/default/permit-oai-unrestricted.xml
+INFO 2020-01-17 11:38:44.952 [localhost-startStop-1] (SimplePolicyLoader) Loading policy: /opt/eulfedora_ci/fedora_ci/data/fedora-xacml-policies/repository-policies/default/permit-anything-to-administrator.xml
+INFO 2020-01-17 11:38:44.953 [localhost-startStop-1] (SimplePolicyLoader) Loading policy: /opt/eulfedora_ci/fedora_ci/data/fedora-xacml-policies/repository-policies/default/deny-inactive-or-deleted-objects-or-datastreams-if-not-administrator.xml
+INFO 2020-01-17 11:38:44.962 [localhost-startStop-1] (SimplePolicyLoader) Loading policy: /opt/eulfedora_ci/fedora_ci/data/fedora-xacml-policies/repository-policies/default/deny-reloadPolicies-if-not-localhost.xml
+INFO 2020-01-17 11:38:44.964 [localhost-startStop-1] (SimplePolicyLoader) Loading policy: /opt/eulfedora_ci/fedora_ci/data/fedora-xacml-policies/repository-policies/default/deny-purge-object-if-active-or-inactive.xml
+INFO 2020-01-17 11:38:44.965 [localhost-startStop-1] (SimplePolicyLoader) Loading policy: /opt/eulfedora_ci/fedora_ci/data/fedora-xacml-policies/repository-policies/default/deny-unallowed-file-resolution.xml
+INFO 2020-01-17 11:38:44.966 [localhost-startStop-1] (SimplePolicyLoader) Loading policy: /opt/eulfedora_ci/fedora_ci/data/fedora-xacml-policies/repository-policies/default/permit-dsstate-check-unrestricted.xml
+INFO 2020-01-17 11:38:44.976 [localhost-startStop-1] (SimplePolicyLoader) Loading policy: /opt/eulfedora_ci/fedora_ci/data/fedora-xacml-policies/repository-policies/default/deny-purge-datastream-if-active-or-inactive.xml
+INFO 2020-01-17 11:38:44.977 [localhost-startStop-1] (SimplePolicyLoader) Loading policy: /opt/eulfedora_ci/fedora_ci/data/fedora-xacml-policies/repository-policies/default/permit-serverStatus-unrestricted.xml
+INFO 2020-01-17 11:38:44.986 [localhost-startStop-1] (SimplePolicyLoader) Loading policy: /opt/eulfedora_ci/fedora_ci/data/fedora-xacml-policies/repository-policies/default/deny-policy-management-if-not-administrator.xml
+INFO 2020-01-17 11:38:44.987 [localhost-startStop-1] (SimplePolicyLoader) Loading policy: /opt/eulfedora_ci/fedora_ci/data/fedora-xacml-policies/repository-policies/default/permit-apia-unrestricted.xml
+INFO 2020-01-17 11:38:45.133 [localhost-startStop-1] (ResourceIndexModule) Configuring triplestore connector from fcfg datastore configuration localMulgaraTriplestore
+INFO 2020-01-17 11:39:05.362 [localhost-startStop-1] (MessagingModule) Messaging Module is disabled.
+INFO 2020-01-17 11:39:05.885 [localhost-startStop-1] (Server) Post-Initializing org.fcrepo.server.validation.DOObjectValidatorModule
+INFO 2020-01-17 11:39:05.885 [localhost-startStop-1] (Server) Post-Initializing org.fcrepo.server.storage.lowlevel.DefaultLowlevelStorageModule
+INFO 2020-01-17 11:39:21.467 [localhost-startStop-1] (SQLUtilityImpl) Creating new table 'objectPaths' with command(s): 
+CREATE TABLE objectPaths (
+  tokenDbID int NOT NULL GENERATED ALWAYS AS IDENTITY,
+  token varchar(64) UNIQUE NOT NULL DEFAULT '',
+  path varchar(255) NOT NULL DEFAULT '',
+  PRIMARY KEY (tokenDbID));
+INFO 2020-01-17 11:39:21.864 [localhost-startStop-1] (SQLUtilityImpl) Creating new table 'datastreamPaths' with command(s): 
+CREATE TABLE datastreamPaths (
+  tokenDbID int NOT NULL GENERATED ALWAYS AS IDENTITY,
+  token varchar(199) UNIQUE NOT NULL DEFAULT '',
+  path varchar(255) NOT NULL DEFAULT '',
+  PRIMARY KEY (tokenDbID));
+INFO 2020-01-17 11:39:22.142 [localhost-startStop-1] (Server) Post-Initializing org.fcrepo.server.security.DefaultAuthorization
+INFO 2020-01-17 11:39:22.143 [localhost-startStop-1] (PolicyFinderModule) Loading repository policies...
+INFO 2020-01-17 11:39:22.143 [localhost-startStop-1] (PolicyFinderModule) Generating backend policies...
+INFO 2020-01-17 11:39:22.182 [localhost-startStop-1] (SimplePolicyLoader) Loading policy: /opt/eulfedora_ci/fedora_ci/server/fedora-internal-use/fedora-internal-use-backend-service-policies/callback-by_fedoraInternalCall-1-other-methods.xml
+INFO 2020-01-17 11:39:22.188 [localhost-startStop-1] (SimplePolicyLoader) Loading policy: /opt/eulfedora_ci/fedora_ci/server/fedora-internal-use/fedora-internal-use-backend-service-policies/callback-by_fedoraInternalCall-2-other-methods.xml
+INFO 2020-01-17 11:39:22.190 [localhost-startStop-1] (SimplePolicyLoader) Loading policy: /opt/eulfedora_ci/fedora_ci/server/fedora-internal-use/fedora-internal-use-backend-service-policies/callback-by_default.xml
+INFO 2020-01-17 11:39:22.198 [localhost-startStop-1] (SimplePolicyLoader) Loading policy: /opt/eulfedora_ci/fedora_ci/data/fedora-xacml-policies/repository-policies/default/deny-apim-if-not-localhost.xml
+INFO 2020-01-17 11:39:22.208 [localhost-startStop-1] (SimplePolicyLoader) Loading policy: /opt/eulfedora_ci/fedora_ci/data/fedora-xacml-policies/repository-policies/default/permit-oai-unrestricted.xml
+INFO 2020-01-17 11:39:22.208 [localhost-startStop-1] (SimplePolicyLoader) Loading policy: /opt/eulfedora_ci/fedora_ci/data/fedora-xacml-policies/repository-policies/default/permit-anything-to-administrator.xml
+INFO 2020-01-17 11:39:22.209 [localhost-startStop-1] (SimplePolicyLoader) Loading policy: /opt/eulfedora_ci/fedora_ci/data/fedora-xacml-policies/repository-policies/default/deny-inactive-or-deleted-objects-or-datastreams-if-not-administrator.xml
+INFO 2020-01-17 11:39:22.210 [localhost-startStop-1] (SimplePolicyLoader) Loading policy: /opt/eulfedora_ci/fedora_ci/data/fedora-xacml-policies/repository-policies/default/deny-reloadPolicies-if-not-localhost.xml
+INFO 2020-01-17 11:39:22.217 [localhost-startStop-1] (SimplePolicyLoader) Loading policy: /opt/eulfedora_ci/fedora_ci/data/fedora-xacml-policies/repository-policies/default/deny-purge-object-if-active-or-inactive.xml
+INFO 2020-01-17 11:39:22.222 [localhost-startStop-1] (SimplePolicyLoader) Loading policy: /opt/eulfedora_ci/fedora_ci/data/fedora-xacml-policies/repository-policies/default/deny-unallowed-file-resolution.xml
+INFO 2020-01-17 11:39:22.223 [localhost-startStop-1] (SimplePolicyLoader) Loading policy: /opt/eulfedora_ci/fedora_ci/data/fedora-xacml-policies/repository-policies/default/permit-dsstate-check-unrestricted.xml
+INFO 2020-01-17 11:39:22.224 [localhost-startStop-1] (SimplePolicyLoader) Loading policy: /opt/eulfedora_ci/fedora_ci/data/fedora-xacml-policies/repository-policies/default/deny-purge-datastream-if-active-or-inactive.xml
+INFO 2020-01-17 11:39:22.224 [localhost-startStop-1] (SimplePolicyLoader) Loading policy: /opt/eulfedora_ci/fedora_ci/data/fedora-xacml-policies/repository-policies/default/permit-serverStatus-unrestricted.xml
+INFO 2020-01-17 11:39:22.225 [localhost-startStop-1] (SimplePolicyLoader) Loading policy: /opt/eulfedora_ci/fedora_ci/data/fedora-xacml-policies/repository-policies/default/deny-policy-management-if-not-administrator.xml
+INFO 2020-01-17 11:39:22.231 [localhost-startStop-1] (SimplePolicyLoader) Loading policy: /opt/eulfedora_ci/fedora_ci/data/fedora-xacml-policies/repository-policies/default/permit-apia-unrestricted.xml
+INFO 2020-01-17 11:39:22.233 [localhost-startStop-1] (Server) Post-Initializing org.fcrepo.server.security.DefaultBackendSecurity
+INFO 2020-01-17 11:39:22.234 [localhost-startStop-1] (Server) Post-Initializing org.fcrepo.server.storage.DefaultDOManager
+INFO 2020-01-17 11:39:22.255 [localhost-startStop-1] (SQLUtilityImpl) Creating new table 'doRegistry' with command(s): 
+CREATE TABLE doRegistry (
+  doPID varchar(64) NOT NULL,
+  systemVersion int NOT NULL DEFAULT 0,
+  ownerId varchar(64),
+  objectState varchar(1) NOT NULL DEFAULT 'A',
+  label varchar(255) DEFAULT '',
+  PRIMARY KEY (doPID));
+INFO 2020-01-17 11:39:22.397 [localhost-startStop-1] (SQLUtilityImpl) Creating new table 'modelDeploymentMap' with command(s): 
+CREATE TABLE modelDeploymentMap (
+  cModel varchar(64) NOT NULL,
+  sDef varchar(64) NOT NULL,
+  sDep varchar(64) NOT NULL);
+INFO 2020-01-17 11:39:22.447 [localhost-startStop-1] (SQLUtilityImpl) Creating new table 'fcrepoRebuildStatus' with command(s): 
+CREATE TABLE fcrepoRebuildStatus (
+  rebuildDate bigint UNIQUE NOT NULL,
+  complete boolean NOT NULL);
+INFO 2020-01-17 11:39:22.684 [localhost-startStop-1] (SQLUtilityImpl) Creating new table 'doFields' with command(s): 
+CREATE TABLE doFields (
+  pid varchar(64) NOT NULL,
+  label varchar(255),
+  state varchar(1) NOT NULL DEFAULT 'A',
+  ownerId varchar(64),
+  cDate bigint NOT NULL,
+  mDate bigint NOT NULL,
+  dcmDate bigint,
+  dcTitle CLOB,
+  dcCreator CLOB,
+  dcSubject CLOB,
+  dcDescription CLOB,
+  dcPublisher CLOB,
+  dcContributor CLOB,
+  dcDate CLOB,
+  dcType CLOB,
+  dcFormat CLOB,
+  dcIdentifier CLOB,
+  dcSource CLOB,
+  dcLanguage CLOB,
+  dcRelation CLOB,
+  dcCoverage CLOB,
+  dcRights CLOB);
+CREATE INDEX doFields_pid ON doFields (pid);
+INFO 2020-01-17 11:39:22.888 [localhost-startStop-1] (SQLUtilityImpl) Creating new table 'dcDates' with command(s): 
+CREATE TABLE dcDates (
+  pid varchar(64) NOT NULL,
+  dcDate bigint NOT NULL);
+CREATE INDEX dcDates_pid ON dcDates (pid);
+WARN 2020-01-17 11:39:23.089 [localhost-startStop-1] (DefaultDOManager) Could not load the specified hint provider class (as specified in spring bean definition), using default nullprovider
+INFO 2020-01-17 11:39:23.121 [localhost-startStop-1] (Server) Post-Initializing org.fcrepo.server.access.DefaultAccess
+INFO 2020-01-17 11:39:23.121 [localhost-startStop-1] (Server) Post-Initializing org.fcrepo.server.access.DynamicAccessModule
+INFO 2020-01-17 11:39:23.129 [localhost-startStop-1] (Server) Post-Initializing org.fcrepo.server.search.FieldSearchSQLModule
+INFO 2020-01-17 11:39:23.153 [localhost-startStop-1] (Server) Post-Initializing org.fcrepo.server.resourceIndex.ResourceIndexModule
+INFO 2020-01-17 11:39:23.153 [localhost-startStop-1] (Server) Post-Initializing org.fcrepo.server.oai.FedoraOAIProviderModule
+INFO 2020-01-17 11:39:23.164 [localhost-startStop-1] (Server) Post-Initializing org.fcrepo.server.storage.translation.DOTranslatorModule
+INFO 2020-01-17 11:39:23.164 [localhost-startStop-1] (Server) Post-Initializing org.fcrepo.server.management.BasicPIDGenerator
+INFO 2020-01-17 11:39:23.181 [localhost-startStop-1] (SQLUtilityImpl) Creating new table 'pidGen' with command(s): 
+CREATE TABLE pidGen (
+  namespace varchar(255) NOT NULL,
+  highestID int NOT NULL);
+INFO 2020-01-17 11:39:23.246 [localhost-startStop-1] (Server) Post-Initializing org.fcrepo.server.messaging.MessagingModule
+INFO 2020-01-17 11:39:23.246 [localhost-startStop-1] (Server) Post-Initializing org.fcrepo.server.storage.ConnectionPoolManagerImpl
+INFO 2020-01-17 11:39:23.246 [localhost-startStop-1] (Server) Post-Initializing org.fcrepo.server.validation.DOValidatorModule
+INFO 2020-01-17 11:39:23.368 [localhost-startStop-1] (Server) Post-Initializing org.fcrepo.server.storage.DefaultExternalContentManager
+INFO 2020-01-17 11:39:23.368 [localhost-startStop-1] (Server) Post-Initializing org.fcrepo.server.management.ManagementModule
+INFO 2020-01-17 11:39:23.429 [localhost-startStop-1] (BasicServer) Ingesting new system object: fedora-system:ContentModel-3.0
+INFO 2020-01-17 11:39:24.017 [localhost-startStop-1] (DefaultDOManager) Committing addition of fedora-system:ContentModel-3.0
+INFO 2020-01-17 11:39:24.032 [localhost-startStop-1] (DefaultDOManager) Adding to ResourceIndex
+INFO 2020-01-17 11:39:24.139 [localhost-startStop-1] (DefaultDOManager) Updating dissemination index for fedora-system:ContentModel-3.0
+INFO 2020-01-17 11:39:24.139 [localhost-startStop-1] (DefaultDOManager) Updating FieldSearch index
+INFO 2020-01-17 11:39:24.214 [localhost-startStop-1] (BasicServer) Ingesting new system object: fedora-system:FedoraObject-3.0
+INFO 2020-01-17 11:39:24.293 [localhost-startStop-1] (DefaultDOManager) Committing addition of fedora-system:FedoraObject-3.0
+INFO 2020-01-17 11:39:24.302 [localhost-startStop-1] (DefaultDOManager) Adding to ResourceIndex
+INFO 2020-01-17 11:39:24.338 [localhost-startStop-1] (DefaultDOManager) Updating dissemination index for fedora-system:FedoraObject-3.0
+INFO 2020-01-17 11:39:24.339 [localhost-startStop-1] (DefaultDOManager) Updating FieldSearch index
+INFO 2020-01-17 11:39:24.357 [localhost-startStop-1] (BasicServer) Ingesting new system object: fedora-system:ServiceDefinition-3.0
+INFO 2020-01-17 11:39:24.417 [localhost-startStop-1] (DefaultDOManager) Committing addition of fedora-system:ServiceDefinition-3.0
+INFO 2020-01-17 11:39:24.422 [localhost-startStop-1] (DefaultDOManager) Adding to ResourceIndex
+INFO 2020-01-17 11:39:24.455 [localhost-startStop-1] (DefaultDOManager) Updating dissemination index for fedora-system:ServiceDefinition-3.0
+INFO 2020-01-17 11:39:24.455 [localhost-startStop-1] (DefaultDOManager) Updating FieldSearch index
+INFO 2020-01-17 11:39:24.464 [localhost-startStop-1] (BasicServer) Ingesting new system object: fedora-system:ServiceDeployment-3.0
+INFO 2020-01-17 11:39:24.528 [localhost-startStop-1] (DefaultDOManager) Committing addition of fedora-system:ServiceDeployment-3.0
+INFO 2020-01-17 11:39:24.541 [localhost-startStop-1] (DefaultDOManager) Adding to ResourceIndex
+INFO 2020-01-17 11:39:24.572 [localhost-startStop-1] (DefaultDOManager) Updating dissemination index for fedora-system:ServiceDeployment-3.0
+INFO 2020-01-17 11:39:24.572 [localhost-startStop-1] (DefaultDOManager) Updating FieldSearch index
+INFO 2020-01-17 11:39:24.613 [localhost-startStop-1] (Server) Server startup complete
+INFO 2020-01-17 11:39:27.772 [localhost-startStop-1] (AuthFilterJAAS) using FEDORA_HOME: /opt/eulfedora_ci/fedora_ci
+INFO 2020-01-17 11:39:27.772 [localhost-startStop-1] (AuthFilterJAAS) initialised servlet filter: org.fcrepo.server.security.jaas.AuthFilterJAAS
+INFO 2020-01-17 11:39:58.513 [localhost-startStop-2] (Server) Shutting down server
+INFO 2020-01-17 11:39:58.517 [localhost-startStop-2] (Module) Shutting down org.fcrepo.server.storage.DefaultExternalContentManager
+INFO 2020-01-17 11:39:58.517 [localhost-startStop-2] (Module) Shutting down org.fcrepo.server.validation.DOValidatorModule
+INFO 2020-01-17 11:39:58.517 [localhost-startStop-2] (Module) Shutting down org.fcrepo.server.storage.ConnectionPoolManagerImpl
+INFO 2020-01-17 11:39:58.517 [localhost-startStop-2] (ConnectionPool) Shutting down embedded derby database.
+INFO 2020-01-17 11:39:59.865 [localhost-startStop-2] (Module) Shutting down org.fcrepo.server.management.BasicPIDGenerator
+INFO 2020-01-17 11:39:59.866 [localhost-startStop-2] (Module) Shutting down org.fcrepo.server.storage.translation.DOTranslatorModule
+INFO 2020-01-17 11:39:59.866 [localhost-startStop-2] (Module) Shutting down org.fcrepo.server.oai.FedoraOAIProviderModule
+INFO 2020-01-17 11:39:59.871 [localhost-startStop-2] (Module) Shutting down org.fcrepo.server.search.FieldSearchSQLModule
+INFO 2020-01-17 11:39:59.874 [localhost-startStop-2] (Module) Shutting down org.fcrepo.server.access.DynamicAccessModule
+INFO 2020-01-17 11:39:59.876 [localhost-startStop-2] (Module) Shutting down org.fcrepo.server.access.DefaultAccess
+INFO 2020-01-17 11:39:59.876 [localhost-startStop-2] (Module) Shutting down org.fcrepo.server.security.DefaultBackendSecurity
+INFO 2020-01-17 11:39:59.876 [localhost-startStop-2] (Module) Shutting down org.fcrepo.server.security.DefaultAuthorization
+INFO 2020-01-17 11:39:59.876 [localhost-startStop-2] (Module) Shutting down org.fcrepo.server.storage.lowlevel.DefaultLowlevelStorageModule
+INFO 2020-01-17 11:39:59.876 [localhost-startStop-2] (Server) Server shutdown complete

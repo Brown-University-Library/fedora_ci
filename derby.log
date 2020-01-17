@@ -1,0 +1,30 @@
+----------------------------------------------------------------
+Fri Jan 17 11:39:14 EST 2020:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.9.1.0 - (1344872): instance a816c00e-016f-b45f-5a5d-00000371c948 
+on database directory /opt/eulfedora_ci/fedora_ci/derby/fedora3  with class loader WebappClassLoader
+  context: /fedora
+  delegate: false
+  repositories:
+    /WEB-INF/classes/
+----------> Parent Classloader:
+org.apache.catalina.loader.StandardClassLoader@6193b845
+ 
+Loaded from file:/opt/eulfedora_ci/fedora_ci/tomcat/webapps/fedora/WEB-INF/lib/derby-10.9.1.0.jar
+java.vendor=Private Build
+java.runtime.version=1.8.0_232-8u232-b09-0ubuntu1~18.04.1-b09
+user.dir=/opt/eulfedora_ci/fedora_ci
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Fri Jan 17 11:39:58 EST 2020: Shutting down Derby engine
+----------------------------------------------------------------
+Fri Jan 17 11:39:59 EST 2020:
+Shutting down instance a816c00e-016f-b45f-5a5d-00000371c948 on database directory /opt/eulfedora_ci/fedora_ci/derby/fedora3 with class loader WebappClassLoader
+  context: /fedora
+  delegate: false
+  repositories:
+    /WEB-INF/classes/
+----------> Parent Classloader:
+org.apache.catalina.loader.StandardClassLoader@6193b845
+ 
+----------------------------------------------------------------

@@ -1,0 +1,2 @@
+localhost - - [17/Jan/2020:11:39:32 -0500] "GET /fedora/describe HTTP/1.1" 200 3361
+localhost - - [17/Jan/2020:11:39:32 -0500] "GET /fedora/images/newlogo2.jpg HTTP/1.1" 200 10451
